@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Trial </title>
+    <link rel="stylesheet" href="index.css">
+
+<style>
+    body {
+        background-color: #fff;
+    }
+    h2 {
+        text-align: center;
+    }
+    .achievement {
+    margin: 100px auto 150px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+    }
+    .coding-img {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    }
+    .copywriting-img {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 100%;
+    }
+    .coding-img {
+    border-radius: 100%;
+    }
+    .ach-text {
+        padding-top: 5%;
+    }
+    
+</style>
+  </head>
+
+  <body>
+    <header class="navbar">
+      <img class="logo" alt="revou-logo" src="logo.png" width="40" height="40">
+      <div class="menu">
+        <button onclick="redirectTo('index.html')">Home</button>
+        <button onclick="redirectTo('profile.html')">My Profile</button>
+        <button onclick="redirectTo('achievement.html')">Achievement</button>
+        <button onclick="redirectTo('message-us.html')">Message Us</button>
+
+        <script>
+        function redirectTo(url) {
+        window.location.href = url;
+         }
+        </script>
+      </div>
+    </header>
+
+        <div class="container">
+        <h2>Achievement </h2>
+        <div class="achievement">
+            <img class="coding-img" src="images/computer.png" alt="coding-img">
+            <div class="ach-text">
+            <h3>Top 10% Academic Achiever</h3>
+            <p>Top 3 Highest GPA - Creative Tourism Business  </p>
+            </div>
+        </div>
+        <div class="achievement">
+            <img class="copywriting-img" src="images\chillies.png" alt="copywriting-img">
+            <div class="ach-text">
+            <h3>First Winner</h3>
+            <p>International Talent Festival - Poster Design
+                STP Trisakti · Aug 2020</p>
+            </div>
+        </div>
+        <div class="achievement">
+            <img class="coding-img" src="images/ielts.png" alt="coding-img">
+            <div class="ach-text">
+            <h3>IELTS</h3>
+            <p>Passed with Overall Band 8.5</p>
+            </div>
+        </div>
+        <div class="achievement">
+            <img class="copywriting-img" src="images/tocfl.png" alt="copywriting-img">
+            <div class="ach-text">
+            <h3>TOCFL Level A2</h3>
+            <p>Passed the Chinese Language Examination Level A2 </p>
+            </div>
+        </div>
+</body>
+
+<footer>
+    <p> Created by Gabby Evalin </p>
+</footer>

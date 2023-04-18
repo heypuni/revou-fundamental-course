@@ -1,0 +1,137 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 16px 24px;
+    border-bottom: 2px solid black;
+  }
+
+  @media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .menu {
+    width: 100%;
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 14px;
+  }
+}
+  
+  .navbar > .menu {
+    display: flex;
+  }
+  .navbar > .menu > button {
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 8px 20px;
+  }
+  .navbar > .menu > button:hover {
+    background-color: grey;
+  }
+  .navbar > .menu > button:first-child {
+    border-radius: 4px 0 0 4px;
+  }
+  .navbar > .menu > button:last-child {
+    border-radius: 0 4px 4px 0;
+  }
+  .navbar > .logo {
+    width: auto; 
+    height: 40px;
+  }
+  .container {
+    padding: 10px 10px 10px 50px;
+  }
+  .greeting {
+    display: block;
+  }
+  .img-slideshow {
+    width: 100%;
+    height: auto;
+  }
+  .banner {
+    display: inline-block;
+    text-align: center;
+  }
+  .btn-prev {
+    width: 50%; height: 40%;
+    float:left;
+    text-align: center;
+    margin: 10px 0 10px 0;
+  }
+  .btn-next {
+    width: 50%; height: 40%;
+    text-align: center;
+    float: right;
+    margin: 10px 0 10px 0;
+  }
+
+  #facilitation {
+    padding: 10px 10px 10px 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  .facilitation-main {
+    display: flex;
+    flex-direction: row;
+  }
+  .facilitation-img {
+    border-radius: 100%;
+    align-content: center;
+    width: 15rem;
+  }
+  .facilitation-text {
+    text-align: center;
+    font-size: 2vw;
+    padding-right: 50px; padding-top: 20px;
+    width: 15rem;
+  }
+  .message-us {
+    display: flex;
+    padding: 10px 10px 10px 50px;
+  }
+  .message {
+    line-height: 1.5vw;
+  }
+  .row-bottom {
+    display: flex;
+  }
+  .input-form {
+    width: 70%;
+    margin-top: 5px;
+  }
+  .form-container {
+    display:flex; flex:25%; flex-direction: column;
+  }
+  .form-addon {
+    flex:2%; line-height:2%;"
+  }
+  .form-answer {
+    display:flex; flex:73%; flex-direction: column;"
+  }
+  .form-data {
+    line-height: 170%;
+    padding-top: 0px;
+  }
+  .symbol {
+    line-height: 5px;
+  }
+  .form-answer {
+    line-height: 25%;
+  }
+  .form-right {
+    align-items: center;
+    padding-left: 5%; 
+    border: 2px solid black;
+  }
+  .btn-submit{
+    width: 70%;
+  }
+  footer {
+    border-top: 1px solid black;
+  }
+  footer > p {
+    text-align: end;
+    margin-right: 10px;
+  }

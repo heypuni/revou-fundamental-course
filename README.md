@@ -1,1 +1,1 @@
-# revou-fundamental-course
+# revou
